@@ -8,7 +8,7 @@ int findfirst(int num[],int n , int target ){
         int mid = low + (high - low) / 2;
         if (nums[mid] == target) {
             first = mid;
-            high = mid - 1; // Search on the left side for first occurrence
+            high = mid - 1; 
         } else if (nums[mid] < target) {
             low = mid + 1;
         } else {
@@ -23,7 +23,7 @@ int findLast(int nums[], int n, int target) {
         int mid = low + (high - low) / 2;
         if (nums[mid] == target) {
             last = mid;
-            low = mid + 1; // Search on the right side for last occurrence
+            low = mid + 1; 
         } else if (nums[mid] < target) {
             low = mid + 1;
         } else {
