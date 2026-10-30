@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int findfirst(int num[],int n , int target ){
